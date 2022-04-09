@@ -1,0 +1,61 @@
+.img1{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 36pt;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 12pt;
+    color: aliceblue;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url("фон.jpeg");
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.grey{
+    background-color: rgb(24, 23, 37);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 200px;
+    padding-bottom: 1px;
+}
+.black{
+    background-color: black;
+}
+hr{
+    width: 300px;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.img2{
+    width: 100%;
+}
+.textblock{
+    padding-left: 50px;
+    background-color: white;
+    color: rgb(168, 168, 168);
+}
+@media (max-width:400px) {
+    .flex-row{
+        flex-direction: column;
+    }
+    .img3{
+        width: 100%;
+    }
+    .grey{
+        padding-top: 2%;
+        padding-left: 2%;
+    }
+    .img1{
+        width: 100%;
+    }
+}
